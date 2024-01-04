@@ -8,7 +8,7 @@ col1, col2 = st.columns(2) # returns n columns to us
 # "with" statement used when opening files, it ensures that files are closed properly and catches errors
 with col1:
     #you can change the width of image here...
-    st.image("images\prof.jpg")
+    st.image("images//prof.jpg")
 
 with col2:
     st.title("David Berger")
